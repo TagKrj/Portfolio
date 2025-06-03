@@ -33,7 +33,7 @@ const Projects = () => {
                     src={preview}
                     style={{ x: springX, y: springY }} />
             )}
-
+            ;
         </section >
     )
 }
