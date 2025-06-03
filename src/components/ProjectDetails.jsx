@@ -1,11 +1,18 @@
+import { motion } from "motion/react"
 
-const ProjectDetails = ({ title, description, subDescription, image, tags, href }) => {
+const ProjectDetails = ({ title, description, subDescription, image, tags, href, closeModal }) => {
     return (
         <div
             className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
-            <div
-                className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-nany border-white/10 ">
-                <button className="absolute p-2 rounded-b-sm top-5 right-5 bg-midnight hover:bg-gray-500">
+            <motion.div
+                className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-nany border-white/10 "
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}>
+                <button
+                    onClick={
+                        closeModal
+                    }
+                    className="absolute p-2 rounded-b-sm top-5 right-5 bg-midnight hover:bg-gray-500">
                     <img src="/public/assets/close.svg"
                         className="w-6 h-6" />
                 </button>
@@ -26,18 +33,27 @@ const ProjectDetails = ({ title, description, subDescription, image, tags, href 
                         </p>
                     ))}
                     <div className="flex items-center justify-between mt-4">
-                        <div>
+                        <div
+                            className="flex gap-3">
                             {tags.map((tag) => (
-                                <span
+                                <img
                                     key={tag.id}
-                                    className="inline-block px-3 py-1 mr-2 text-sm font-medium text-white bg-gray-700 rounded-full">
-                                    {tag.name}
-                                </span>
+                                    src={tag.path}
+                                    alt={tag.name}
+                                    className="rounded-lg size-10 hover-animation" />
                             ))}
                         </div>
+                        <a
+                            className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer ">
+                            View Project
+                            <img
+                                src="/public/assets/arrow-up.svg"
+                                className="size-4"
+                                href={href} />
+                        </a>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
