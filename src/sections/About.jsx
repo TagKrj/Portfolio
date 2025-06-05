@@ -14,7 +14,7 @@ const About = () => {
                 {/* Grid 1 */}
                 <div
                     className="flex items-end grid-default-color grid-1">
-                    <img src="/public/assets/coding-pov.png"
+                    <img src="/assets/coding-pov.png"
                         className="absolute scale-[1.75] -right-[5rem] -top-[1rem]  md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]" />
                     <div
                         className="z-10">
@@ -58,19 +58,19 @@ const About = () => {
                                 width: "80px",
                                 height: "80px"
                             }}
-                            image="/public/assets/logos/cdnlogo.com_react.svg"
+                            image="/assets/logos/cdnlogo.com_react.svg"
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-                            image="/public/assets/logos/tailwind.com.png"
+                            image="/assets/logos/tailwind.com.png"
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-                            image="/public/assets/logos/vitejs.svg"
+                            image="/assets/logos/vitejs.svg"
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "-45deg", top: "35%", left: "50%", borderRadius: "20%", width: "60px", height: "60px" }}
-                            image="/public/assets/logos/html5.svg"
+                            image="/assets/logos/html5.svg"
                             containerRef={gird2Container} />
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const ProjectDetails = ({ title, description, subDescription, image, tags, href,
                         closeModal
                     }
                     className="absolute p-2 rounded-b-sm top-5 right-5 bg-midnight hover:bg-gray-500">
-                    <img src="/public/assets/close.svg"
+                    <img src="/assets/close.svg"
                         className="w-6 h-6" />
                 </button>
                 <img src={image} alt={title}
@@ -47,7 +47,7 @@ const ProjectDetails = ({ title, description, subDescription, image, tags, href,
                             className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer ">
                             View Project
                             <img
-                                src="/public/assets/arrow-up.svg"
+                                src="/assets/arrow-up.svg"
                                 className="size-4"
                                 href={href} />
                         </a>
