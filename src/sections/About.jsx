@@ -53,16 +53,24 @@ const About = () => {
                             text="SRP"
                             containerRef={gird2Container} />
                         <Card
-                            style={{ rotate: "30deg", top: "70%", left: "70%" }}
-                            image="/public/assets/logos/csharp-pink.png"
+                            style={{
+                                rotate: "30deg", top: "70%", left: "70%",
+                                width: "80px",
+                                height: "80px"
+                            }}
+                            image="/public/assets/logos/cdnlogo.com_react.svg"
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-                            image="/public/assets/logos/dotnet-pink.png"
+                            image="/public/assets/logos/tailwind.com.png"
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-                            image="/public/assets/logos/blazor-pink.png"
+                            image="/public/assets/logos/vitejs.svg"
+                            containerRef={gird2Container} />
+                        <Card
+                            style={{ rotate: "-45deg", top: "35%", left: "50%", borderRadius: "20%", width: "60px", height: "60px" }}
+                            image="/public/assets/logos/html5.svg"
                             containerRef={gird2Container} />
                     </div>
                 </div>
@@ -96,7 +104,7 @@ const About = () => {
                             Teck Stack
                         </p>
                         <p className="subtext">
-                            I have experience with a variety of technologies, including C#, .NET, Blazor, React, and more. I love to learn new frameworks and libraries to improve my skills.
+                            I have experience with various technologies including HTML, JS, Tailwind, React, etc. I enjoy learning new frameworks and libraries to improve my skills.
                         </p>
                     </div>
                     <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
