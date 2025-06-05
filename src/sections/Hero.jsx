@@ -11,7 +11,7 @@ import Loader from "../components/Loader"
 const Hero = () => {
     const isMobile = useMediaQuery({ maxWidth: 853 })
     return (
-        <section
+        <section id="home"
             className="flex items-start justify-between md:items-start md:justify-start min-h-screen overflow-hidden c-space">
             <HeroText />
             <ParallaxBackground />

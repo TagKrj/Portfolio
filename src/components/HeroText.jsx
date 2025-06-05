@@ -28,7 +28,7 @@ const HeroText = () => {
                         animate="visible"
                         transition={{ delay: 1.2 }}
                     >
-                        A Developer <br /> Dedicated to Crafting
+                        I’m An <br /> IT student at UTT
                     </motion.p>
                     <motion.div
                         variants={variants}
@@ -51,7 +51,7 @@ const HeroText = () => {
                 </div>
             </div>
             {/* Mobile View*/}
-            <div className="flex flex-col space-y-6 md:hidden">
+            <div className="flex flex-col space-y-6 md:hidden mt-10">
                 <motion.p
                     className="text-4xl font-medium"
                     variants={variants}

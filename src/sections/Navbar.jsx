@@ -1,19 +1,33 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 function Navigation() {
+    const handleClick = (e, targetId) => {
+        e.preventDefault();
+        const element = document.getElementById(targetId);
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    };
     return (
         <ul className="nav-ul">
             <li className="nav-li">
-                <a className="nav-link" href="#home">Home</a>
+                <a className="nav-link" href="#home"
+                    onClick={(e) => handleClick(e, 'home')}>Home</a>
             </li>
             <li className="nav-li">
-                <a className="nav-link" href="#about">About</a>
+                <a className="nav-link" href="#about" onClick={(e) => handleClick(e, 'about')}>About</a>
             </li>
             <li className="nav-li">
-                <a className="nav-link" href="#work">Work</a>
+                <a className="nav-link" href="#myProjects" onClick={(e) => handleClick(e, 'myProjects')}>My projects</a>
             </li>
             <li className="nav-li">
-                <a className="nav-link" href="#contact">Contact</a>
+                <a className="nav-link" href="#work" onClick={(e) => handleClick(e, 'work')}>Work</a>
+            </li>
+            <li className="nav-li">
+                <a className="nav-link" href="#contact" onClick={(e) => handleClick(e, 'contact')}>Contact</a>
             </li>
         </ul>
     );
@@ -27,7 +41,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between py-2 sm:py-0">
                     <a href="/"
                         className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
-                        Ali
+                        HienTrang
                     </a>
                     <button
                         onClick={() => setIsOpen(!isOpen)}
