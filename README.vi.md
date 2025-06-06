@@ -75,14 +75,6 @@ src/
    npm run build
    ```
 
-## 📦 Các Script Có Sẵn
-
-- `npm run dev` - Khởi động server phát triển
-- `npm run build` - Build cho production
-- `npm run lint` - Chạy ESLint
-- `npm run preview` - Xem trước bản build production
-- `npm run deploy` - Deploy lên GitHub Pages
-
 ## 🎨 Các Component Chính
 
 ### Phần Hero
