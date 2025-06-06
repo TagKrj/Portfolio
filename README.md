@@ -1,5 +1,16 @@
-# Personal Portfolio Website
+# Personal Portfolio Website 
 
+<div align="center">
+  <img src="https://github.com/TagKrj/Portfolio/blob/master/imgWeb.png?raw=true" alt="Portfolio Preview" width="100%" />
+</div>
+
+<div align="center">
+  
+  [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-2ea44f?style=for-the-badge)](https://portfolio-two-cyan-15.vercel.app/)
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/TagKrj/Portfolio)
+  
+</div> 
+---
 A modern, interactive portfolio website built with React, Three.js, and cutting-edge web technologies. This portfolio showcases my projects, skills, and professional experience with stunning 3D animations and smooth user interactions.
 
 > **🇻🇳 Tiếng Việt**: [README.vi.md](README.vi.md)

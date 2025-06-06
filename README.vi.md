@@ -1,5 +1,16 @@
-# Trang Web Portfolio Cá Nhân
+# Trang Web Portfolio Cá Nhân 
 
+<div align="center">
+  <img src="https://github.com/TagKrj/Portfolio/blob/master/imgWeb.png?raw=true" alt="Portfolio Preview" width="100%" />
+</div>
+
+<div align="center">
+  
+  [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-2ea44f?style=for-the-badge)](https://portfolio-two-cyan-15.vercel.app/)
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/TagKrj/Portfolio)
+  
+</div> 
+---
 Một trang web portfolio hiện đại, tương tác được xây dựng bằng React, Three.js và các công nghệ web tiên tiến. Portfolio này giới thiệu các dự án, kỹ năng và kinh nghiệm chuyên môn của tôi với các hiệu ứng 3D ấn tượng và tương tác mượt mà.
 
 > **🇺🇸 English**: [README.md](README.md)
