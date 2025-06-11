@@ -247,7 +247,9 @@ export const experiences = [
     "job": "Scientific Research Project",
     "date": "2024 - 2025",
     "contents": [
-      "Second Prize in the Student Scientific Research Contest with the project on building an automatic source code grading system for students in programming contests."
+      "Led a university-level scientific research team focused on designing and implementing a web-based system that automatically grades source code submissions from IT students in programming contests.",
+      "Collaborated with academic mentors to ensure alignment with educational goals and integrated test case execution for various programming languages.",
+      "Earned Second Prize in the Student Scientific Research Contest for technical innovation and real-world applicability of the system in academic environments."
     ]
   },
   {
@@ -255,7 +257,9 @@ export const experiences = [
     "job": "Website Interface Maintenance and Upgrade Project",
     "date": "2024 - Present",
     "contents": [
-      "Participated in upgrading the official website interface and the admission portal of the University of Transport and Communications, serving the strategy of renewing the university’s brand identity."
+      "Contributed to redesigning and enhancing the university's official website and admissions portal, ensuring improved user experience and mobile responsiveness.",
+      "Collaborated with the communications department to align web interface design with the university’s new brand identity.",
+      "Participated in front-end refactoring using modern technologies such as HTML5, CSS3, and JavaScript frameworks."
     ]
   },
   {
@@ -263,7 +267,9 @@ export const experiences = [
     "job": "Online Admission System Project",
     "date": "2025 - Present",
     "contents": [
-      "Participated in developing the frontend for the online admission system, supporting student consultation through a chatbot for prospective applicants."
+      "Assisted in building a responsive front-end for the online university admission system to simplify the application process for prospective students.",
+      "Integrated a chatbot using natural language processing to guide applicants and answer frequently asked questions in real time.",
+      "Tested and optimized the system for different devices and browsers to ensure accessibility."
     ]
   },
   {
@@ -271,7 +277,8 @@ export const experiences = [
     "job": "Key Project: Digitalization of Scientific Management Procedures",
     "date": "2025 - Present",
     "contents": [
-      "Participated in developing and converting the website model from server-side to client-side to optimize performance for the scientific management system for lecturers and students."
+      "Collaborated with faculty and IT teams to convert an internal scientific project management platform from a traditional server-side rendering model to a client-side architecture using React.",
+      "Contributed to data visualization and UI components to streamline complex academic workflows."
     ]
   },
   {
@@ -279,7 +286,9 @@ export const experiences = [
     "job": "Smart Technology Club",
     "date": "2025 - Present",
     "contents": [
-      "Vice President of the Smart Technology Club. Acted as team leader in various software projects."
+      "Served as Vice President of the Smart Technology Club, managing the planning and execution of student-led tech projects and workshops.",
+      "Took the role of team leader in multiple club software projects ",
+      "Mentored junior members and helped organize knowledge-sharing events, promoting hands-on learning and collaboration."
     ]
   }
 ];
