@@ -242,50 +242,46 @@ export const mySocials = [
 ];
 
 export const experiences = [
-  [
-    {
-      "title": "Team Leader",
-      "job": "Scientific Research Project",
-      "date": "2024 - 2025",
-      "contents": [
-        "Second Prize in the Student Scientific Research Contest with the project on building an automatic source code grading system for students in programming contests."
-      ]
-    },
-    {
-      "title": "Member",
-      "job": "Website Interface Maintenance and Upgrade Project",
-      "date": "2024 - Present",
-      "contents": [
-        "Participated in upgrading the official website interface and the admission portal of the University of Transport and Communications, serving the strategy of renewing the university’s brand identity."
-      ]
-    },
-    {
-      "title": "Member",
-      "job": "Online Admission System Project",
-      "date": "2025 - Present",
-      "contents": [
-        "Participated in developing the frontend for the online admission system, supporting student consultation through a chatbot for prospective applicants."
-      ]
-    },
-    {
-      "title": "Member",
-      "job": "Key Project: Digitalization of Scientific Management Procedures",
-      "date": "2025 - Present",
-      "contents": [
-        "Participated in developing and converting the website model from server-side to client-side to optimize performance for the scientific management system for lecturers and students."
-      ]
-    },
-    {
-      "title": "Vice President",
-      "job": "Smart Technology Club",
-      "date": "2025 - Present",
-      "contents": [
-        "Vice President of the Smart Technology Club. Acted as team leader in various software projects."
-      ]
-    }
-  ]
-
-
+  {
+    "title": "Team Leader",
+    "job": "Scientific Research Project",
+    "date": "2024 - 2025",
+    "contents": [
+      "Second Prize in the Student Scientific Research Contest with the project on building an automatic source code grading system for students in programming contests."
+    ]
+  },
+  {
+    "title": "Member",
+    "job": "Website Interface Maintenance and Upgrade Project",
+    "date": "2024 - Present",
+    "contents": [
+      "Participated in upgrading the official website interface and the admission portal of the University of Transport and Communications, serving the strategy of renewing the university’s brand identity."
+    ]
+  },
+  {
+    "title": "Member",
+    "job": "Online Admission System Project",
+    "date": "2025 - Present",
+    "contents": [
+      "Participated in developing the frontend for the online admission system, supporting student consultation through a chatbot for prospective applicants."
+    ]
+  },
+  {
+    "title": "Member",
+    "job": "Key Project: Digitalization of Scientific Management Procedures",
+    "date": "2025 - Present",
+    "contents": [
+      "Participated in developing and converting the website model from server-side to client-side to optimize performance for the scientific management system for lecturers and students."
+    ]
+  },
+  {
+    "title": "Vice President",
+    "job": "Smart Technology Club",
+    "date": "2025 - Present",
+    "contents": [
+      "Vice President of the Smart Technology Club. Acted as team leader in various software projects."
+    ]
+  }
 ];
 export const reviews = [
   {
@@ -337,6 +333,3 @@ export const reviews = [
   //   img: "https://robohash.org/eve",
   // },
 ];
-
-
-
