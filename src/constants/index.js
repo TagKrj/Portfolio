@@ -1,53 +1,6 @@
 
 export const myProjects = [
   {
-    "id": 1,
-    "title": "My Portfolio",
-    "description": "A modern and interactive personal portfolio website built with React, Three.js, and Vite, showcasing my projects, skills, and experience through 3D animations and smooth user experience.",
-    "subDescription": [
-      "Built a responsive portfolio with React, Tailwind CSS, and Vite.",
-      "Used Three.js for interactive 3D elements.",
-      "Added smooth animations with Framer Motion.",
-      "Integrated EmailJS for contact form functionality.",
-      "Optimized for performance and deployed on Vercel."
-    ],
-    "href": "https://portfolio-two-cyan-15.vercel.app/",
-    "logo": "",
-    "image": "/assets/projects/portfolio.png",
-    "tags": [
-      {
-        "id": 1,
-        "name": "React",
-        "path": "/assets/logos/react.svg"
-      },
-      {
-        "id": 2,
-        "name": "Three.js",
-        "path": "/assets/logos/threejs.svg"
-      },
-      {
-        "id": 3,
-        "name": "TailwindCSS",
-        "path": "/assets/logos/tailwindcss.svg"
-      },
-      {
-        "id": 4,
-        "name": "Vite",
-        "path": "/assets/logos/vitejs.svg"
-      },
-      {
-        "id": 5,
-        "name": "Framer Motion",
-        "path": "/assets/logos/motion.png"
-      },
-      {
-        "id": 6,
-        "name": "EmailJS",
-        "path": "/assets/logos/emailJs.png"
-      }
-    ]
-  },
-  {
     "id": 2,
     "title": "VibeCheck.ai - AI Code Quality Analysis Platform",
     "description": "An AI-powered platform for analyzing source code quality, detecting code smells, and identifying security issues in GitHub repositories.",
@@ -95,7 +48,7 @@ export const myProjects = [
     ]
   },
   {
-"id": 3,
+"id": 2,
 "title": "UTT Online Admission System",
 "description": "Online admission management system for University of Transport Technology, supporting student registration and enrollment processes.",
 "subDescription": [
@@ -137,7 +90,7 @@ export const myProjects = [
 "Integrated AI models to generate, classify, and evaluate multiple-choice questions from educational content.",
 "Supported lecturers and students with automated assessment and learning activities."
 ],
-"href": "",
+// "href": "",
 "logo": "",
 "image": "/assets/projects/quiz-ai.png",
 "tags": [
@@ -162,7 +115,54 @@ export const myProjects = [
 "path": "/assets/logos/Figma.svg"
 }
 ]
-}
+},
+{
+    "id": 4,
+    "title": "My Portfolio",
+    "description": "A modern and interactive personal portfolio website built with React, Three.js, and Vite, showcasing my projects, skills, and experience through 3D animations and smooth user experience.",
+    "subDescription": [
+      "Built a responsive portfolio with React, Tailwind CSS, and Vite.",
+      "Used Three.js for interactive 3D elements.",
+      "Added smooth animations with Framer Motion.",
+      "Integrated EmailJS for contact form functionality.",
+      "Optimized for performance and deployed on Vercel."
+    ],
+    "href": "https://github.com/TagKrj/Portfolio",
+    "logo": "",
+    "image": "/assets/projects/portfolio.png",
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "path": "/assets/logos/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "Three.js",
+        "path": "/assets/logos/threejs.svg"
+      },
+      {
+        "id": 3,
+        "name": "TailwindCSS",
+        "path": "/assets/logos/tailwindcss.svg"
+      },
+      {
+        "id": 4,
+        "name": "Vite",
+        "path": "/assets/logos/vitejs.svg"
+      },
+      {
+        "id": 5,
+        "name": "Framer Motion",
+        "path": "/assets/logos/motion.png"
+      },
+      {
+        "id": 6,
+        "name": "EmailJS",
+        "path": "/assets/logos/emailJs.png"
+      }
+    ]
+  },
 
 ];
 
@@ -300,6 +300,24 @@ contents: [
 "Organize workshops, competitions, and knowledge-sharing events for students."
 ]
 }
+];
+
+export const mySocials = [
+  {
+    name: "WhatsApp",
+    href: "",
+    icon: "/assets/socials/whatsApp.svg",
+  },
+  {
+    name: "LinkedIn",
+    href: "",
+    icon: "/assets/socials/linkedIn.svg",
+  },
+  {
+    name: "Instagram",
+    href: "",
+    icon: "/assets/socials/instagram.svg",
+  },
 ];
 
 
