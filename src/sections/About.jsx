@@ -20,7 +20,7 @@ const About = () => {
                         className="z-10">
                         <p className="headtext">Hi, I'm Hiền Trang</p>
                         <p className="subtext">
-                            I'm a front-end developer with a passion for creating beautiful and functional user interfaces. I love to learn new technologies and improve my skills every day.
+                            Aspiring Business Analyst with over one year of experience in software product development, aiming to bridge business needs and technical solutions to create effective, user-focused products.
                         </p>
                     </div>
                     <div className="absolute inset-x-0 pointer-events-none-bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"></div>
@@ -38,7 +38,7 @@ const About = () => {
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-                            text="SOLID"
+                            text="Figma"
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "90deg", top: "30%", left: "70%" }}
@@ -50,7 +50,7 @@ const About = () => {
                             containerRef={gird2Container} />
                         <Card
                             style={{ rotate: "20deg", top: "10%", left: "38%" }}
-                            text="SRP"
+                            text="Playwright"
                             containerRef={gird2Container} />
                         <Card
                             style={{
@@ -101,10 +101,10 @@ const About = () => {
                     className="grid-default-color grid-5">
                     <div className="z-10 w-[50%]">
                         <p className="headtext">
-                            Teck Stack
+                            Tech Stack
                         </p>
                         <p className="subtext">
-                            I have experience with various technologies including HTML, JS, Tailwind, React, etc. I enjoy learning new frameworks and libraries to improve my skills.
+                            I have hands-on experience with Figma, HTML, CSS, JavaScript, Tailwind CSS, ReactJS, Node.js, MongoDB, Playwright, and RESTful APIs. I am always eager to learn new tools and technologies to enhance my technical knowledge and business analysis capabilities.
                         </p>
                     </div>
                     <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
